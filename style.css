@@ -1,0 +1,43 @@
+.container{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#textInput{
+    width: 90%;
+    background-color: #faffd0;
+}
+#countButton{
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #62ffcb;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.letters{
+    margin: 5px;
+    background-color: #d0ecff;
+}
+
+.words{
+    margin: 5px;
+    background-color: #e6d0ff;
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        max-width: 750px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
